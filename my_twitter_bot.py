@@ -112,7 +112,7 @@ def store_last_seen_id(last_seen_id, file_name):
 
 def weather(city_name):
     print(city_name)
-    api_key = "cb2f7dd9804d35b83ba5a02117f9f718"  # API key from the OpenWeatherMap website
+    api_key = "OpenWeatherMap API KEY"  # API key from the OpenWeatherMap website
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     complete_url = base_url + "appid=" + 'd850f7f52bf19300a9eb4b0aa6b80f0d' + "&q=" + city_name  # This is to complete the base_url, you can also do this manually to checkout other weather data available
